@@ -151,7 +151,6 @@ Update `k8s/secret.yaml` with your `MONGODB_URI` (e.g. cluster-internal MongoDB 
 | **Local with Docker**    | App + DB in Docker on your machine       | Dev or demo on one machine |
 | **Kubernetes**           | App + DB in a K8s cluster (multi-node)   | Staging / production       |
 
-So **yes, you can run the project “locally” with Docker**: same machine, but the app and DB run inside containers instead of directly on the host.
 
 ---
 
